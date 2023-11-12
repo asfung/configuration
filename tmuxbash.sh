@@ -4,7 +4,7 @@
 #    exit 1
 #fi
 
-read -p "name session: " session_name
+read -p "session name: " session_name
 
 tmux new -s "$session_name" -c /bin/bash bash
 
