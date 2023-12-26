@@ -1,5 +1,6 @@
 return {
 	{ "nvim-treesitter/playground", cmd = "TSPlaygroundToggle" },
+	{ "eandrju/cellular-automaton.nvim" },
 
 	{
 		"nvim-treesitter/nvim-treesitter",
