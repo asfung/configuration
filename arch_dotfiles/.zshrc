@@ -131,6 +131,20 @@ export PATH=$PATH:'/home/Asfung/node-v20.10.0-linux-x64/bin'
 export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH
 
+# JAVA_HOME
+#export JAVA_HOME = "/home/Asfung/.sdkman/candidates/java/current"
+#export PATH=$PATH:$JAVA_HOME/bin
+
 alias 'larapel'='cd /home/Asfung/Dev/Laravel/'
 alias 'jawa'='cd /home/Asfung/Dev/Java/'
 alias 'turn_on_postgres'='/home/Asfung/scripts/turn_on_postgres.sh'
+
+# apache kafka 
+export PATH=$PATH:"~/kafka_2.13-3.6.1/bin"
+
+alias 'zoostart'='~/kafka_2.13-3.6.1/bin/zookeeper-server-start.sh ~/kafka_2.13-3.6.1/config/zookeeper.properties'
+alias 'zoostart_daemon'='~/kafka_2.13-3.6.1/bin/zookeeper-server-start.sh -daemon ~/kafka_2.13-3.6.1/config/zookeeper.properties'
+
+alias 'kafkastart'='~/kafka_2.13-3.6.1/bin/kafka-server-start.sh ~/kafka_2.13-3.6.1/config/server.properties'
+
+
