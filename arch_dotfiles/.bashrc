@@ -12,8 +12,6 @@ PS1='[\u@\h \W]\$ '
 alias 'update-grub'='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias 'piton'='source $HOME/pitonEnv/bin/activate'
 
-# PS1="\[\e]0;\u@\h: /\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:/\$ "
-
 alias 'code'='/home/Asfung/VSCode-linux-x64/bin/code'
 
 # biru
