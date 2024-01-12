@@ -16,9 +16,6 @@ alias 'piton'='source $HOME/pitonEnv/bin/activate'
 
 alias 'code'='/home/Asfung/VSCode-linux-x64/bin/code'
 
-# hijau lime
-export PS1='\u@\h:\[\e[92m\]\w\[\e[0m\]\$ '
-
 # biru
 export PS1='\u@\h:\[\e[94m\]\w\[\e[0m\]\$ '
 
@@ -41,6 +38,7 @@ alias 'dev'='cd /home/Asfung/Dev/'
 #export PATH=$PATH:'/opt/lampp/bin/'
 alias 'jn'='jupyter notebook'
 
+# my own idea exe command
 function idea() {
 	/home/Asfung/idea-IC-232.10227.8/bin/idea.sh "$1" >/dev/null 2>&1 &
 }
