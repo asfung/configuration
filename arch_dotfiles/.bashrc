@@ -33,7 +33,6 @@ alias bat='upower -i /org/freedesktop/UPower/devices/battery_BAT0| grep -E "stat
 . "$HOME/.cargo/env"
 
 alias 'dev'='cd /home/Asfung/Dev/'
-#export PATH=$PATH:'/opt/lampp/bin/'
 alias 'jn'='jupyter notebook'
 
 # my own idea exe command
