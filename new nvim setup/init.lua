@@ -1,1 +1,3 @@
-print("new nvim setup coming")
+require('options')
+require('keymaps')
+require('plugins')
