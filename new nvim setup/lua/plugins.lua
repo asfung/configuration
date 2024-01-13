@@ -43,7 +43,7 @@ return require('packer').startup(function(use)
     use 'Shatur/neovim-ayu' -- TODO: next neovim theme
     -- use 'tanvirtin/monokai.nvim'
 
-    -- autocompletion plugins
+    -- initilize lsp 
     use { 'williamboman/mason.nvim' }
     use { 'williamboman/mason-lspconfig.nvim'}
     use { 'neovim/nvim-lspconfig' }
