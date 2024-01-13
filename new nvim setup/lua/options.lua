@@ -16,7 +16,7 @@ vim.opt.cursorline = true
 vim.opt.splitbelow = true 
 vim.opt.splitright = true 
 --vim.opt.termguicolors = true -- support alot of color
--- vim.opt.showmode = false -- hiding a bar for status mode
+-- vim.opt.showmode = true -- hiding a bar for status mode
 
 
 -- search options
