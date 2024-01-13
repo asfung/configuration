@@ -5,6 +5,6 @@
 - [Ayu Theme](https://github.com/Shatur/neovim-ayu) is a coloscheme for neovim 
 
 ### Author
-[Paung] (https://github.com/asfung)
+[Paung](https://github.com/asfung)
 
 
