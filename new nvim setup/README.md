@@ -4,8 +4,6 @@
 - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) is a language server protocol 
 - [Ayu Theme](https://github.com/Shatur/neovim-ayu) is a coloscheme for neovim 
 
-TODO: migrating from packer.nvim to lazy.nvim
-
 ### Author
 [Paung](https://github.com/asfung)
 
