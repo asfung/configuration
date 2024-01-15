@@ -59,7 +59,7 @@ return require('packer').startup(function(use)
 
     use 'nvim-treesitter/nvim-treesitter'
     use 'nvim-treesitter/playground'
-    -- a useless plugin lmao and not usable 
+    -- a useless plugin lmao 
     use 'eandrju/cellular-automaton.nvim'
     local function animate(type)
       require('cellular-automaton').start_animation(type)

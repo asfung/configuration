@@ -8,10 +8,10 @@ vim.g.mapleader = " " -- initialize the leader map is space
 -- normal mode on
 --
 -- focus windows navigation
-vim.keymap.set('n', '<C-h>', '<C-w>h', opts)
-vim.keymap.set('n', '<C-j>', '<C-w>j', opts)
-vim.keymap.set('n', '<C-k>', '<C-w>k', opts)
-vim.keymap.set('n', '<C-l>', '<C-w>l', opts)
+vim.keymap.set('n', '<leader>h', '<C-w>h', opts)
+vim.keymap.set('n', '<leader>j', '<C-w>j', opts)
+vim.keymap.set('n', '<leader>k', '<C-w>k', opts)
+vim.keymap.set('n', '<leader>l', '<C-w>l', opts)
 
 -- resize window with lines distance
 vim.keymap.set('n', '<C-Up>', ':resize -2<CR>', opts)
