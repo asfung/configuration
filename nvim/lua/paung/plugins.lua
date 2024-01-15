@@ -58,11 +58,39 @@ return require('packer').startup(function(use)
 
 
     use 'nvim-treesitter/nvim-treesitter'
+    use 'nvim-treesitter/playground'
     -- a useless plugin lmao and not usable 
     use 'eandrju/cellular-automaton.nvim'
     local function animate(type)
       require('cellular-automaton').start_animation(type)
     end
+
+    use {
+        'nvim-telescope/telescope.nvim', tag = '0.1.5',
+        -- or                            , branch = '0.1.x',
+        requires = { {'nvim-lua/plenary.nvim'} }
+    }
+
+    use 'ThePrimeagen/harpoon'
+    use 'mbbill/undotree'
+
+    use {
+        'VonHeikemen/lsp-zero.nvim',
+        branch = 'v3.x',
+        requires = {
+            --- Uncomment the two plugins below if you want to manage the language servers from neovim
+            --- and read this: https://github.com/VonHeikemen/lsp-zero.nvim/blob/v3.x/doc/md/guides/integrate-with-mason-nvim.md
+            -- {'williamboman/mason.nvim'},
+            -- {'williamboman/mason-lspconfig.nvim'},
+
+            -- LSP Support
+            {'neovim/nvim-lspconfig'},
+            -- Autocompletion
+            {'hrsh7th/nvim-cmp'},
+            {'hrsh7th/cmp-nvim-lsp'},
+            {'L3MON4D3/LuaSnip'},
+        }
+    }
   
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
