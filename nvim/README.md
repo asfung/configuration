@@ -1,7 +1,12 @@
+<div align="center">
+
 ## I Use Neovim Btw.
 
-<div align="center">
 <img src="https://github.com/asfung/configuration/blob/main/image/nvim_btw.png?raw=true" />
+
+[![Neovim](https://img.shields.io/badge/Neovim-57A143.svg?style=for-the-badge&logo=Neovim&logoColor=white)](https://neovim.io)
+![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)
+
 </div>
 
 - [Packer.nvim](https://github.com/wbthomason/packer.nvim) is a plugin manager to manage all the plugins
