@@ -4,7 +4,7 @@ local jdtls_root_dir = vim.fn.stdpath('data') .. '/mason/packages/jdtls'
 local config_dir = jdtls_root_dir .. '/config_linux'
 local plugins_dir = jdtls_root_dir .. '/plugins/'
 local jar_path = plugins_dir .. 'org.eclipse.equinox.launcher_1.6.600.v20231106-1826.jar'
-local lombok_path = jdtls_root_dir .. 'lombok.jar'
+local lombok_path = jdtls_root_dir .. '/lombok.jar'
 
 -- workspace for new project with java
 local workspace_dir = vim.fn.stdpath('data') .. 'Java-Workspace'
