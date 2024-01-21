@@ -29,5 +29,12 @@ vim.opt.smartcase = true            -- but make it case sensitive if an uppercas
 -- the carret (cursor)
 vim.opt.guicursor = 'n-v-c-sm:block'    -- i absolutely like block carret
 
+-- jdtls
+vim.api.nvim_set_keymap('n', '<A-o>', '<Cmd>lua require\'jdtls\'.organize_imports()<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', 'crv', '<Cmd>lua require(\'jdtls\').extract_variable()<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('x', 'crv', '<Esc><Cmd>lua require(\'jdtls\').extract_variable(true)<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', 'crc', '<Cmd>lua require(\'jdtls\').extract_constant()<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('x', 'crc', '<Esc><Cmd>lua require(\'jdtls\').extract_constant(true)<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('x', 'crm', '<Esc><Cmd>lua require(\'jdtls\').extract_method(true)<CR>', { noremap = true, silent = true })
 
 

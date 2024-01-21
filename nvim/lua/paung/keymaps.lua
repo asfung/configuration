@@ -27,4 +27,3 @@ vim.keymap.set('v', '>', '>gv', opts)
 -- previous to netrw menu
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
 
-
