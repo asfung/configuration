@@ -7,7 +7,7 @@ local jar_path = plugins_dir .. 'org.eclipse.equinox.launcher_1.6.600.v20231106-
 local lombok_path = jdtls_root_dir .. '/lombok.jar'
 
 -- workspace for new project with java
-local workspace_dir = vim.fn.stdpath('data') .. 'Java-Workspace'
+local workspace_dir = vim.fn.stdpath('data') .. '/Java-Workspace'
 local root_markers = { ".git", "mvnw", "gradlew", "pom.xml", "build.gradle" }
 local root_dir = require("jdtls.setup").find_root(root_markers)
 if root_dir == "" then
@@ -45,23 +45,23 @@ local config = {
     settings = {
         java = {
 
-            home = '/home/Asfung/.sdkman/candidates/java/17.0.9-oracle/',
+            -- home = '/home/Asfung/.sdkman/candidates/java/17.0.9-oracle/',
             eclipse = {
                 downloadSources = true,
             },
-            configuration = {
-                updateBuildConfiguration = "interactive",
-                runtimes = {
-                    {
-                        name = "Java21-graalvm",
-                        path = '/home/Asfung/.sdkman/candidates/java/21-graalce/',
-                    },
-                    {
-                        name = "Java17-Oracle",
-                        path = '/home/Asfung/.sdkman/candidates/java/17.0.9-oracle/',
-                    }
-                }
-            },
+            -- configuration = {
+            --     updateBuildConfiguration = "interactive",
+            --     runtimes = {
+            --         {
+            --             name = "Java21-graalvm",
+            --             path = '/home/Asfung/.sdkman/candidates/java/21-graalce/',
+            --         },
+            --         {
+            --             name = "Java17-Oracle",
+            --             path = '/home/Asfung/.sdkman/candidates/java/17.0.9-oracle/',
+            --         }
+            --     }
+            -- },
 
             maven = {
                 downloadSources = true,
@@ -119,7 +119,6 @@ local config = {
     
 
 }
-
 
 require('jdtls').start_or_attach(config)
 
