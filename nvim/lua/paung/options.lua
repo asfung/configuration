@@ -27,5 +27,5 @@ vim.opt.smartcase = true            -- but make it case sensitive if an uppercas
 
 
 -- the carret (cursor)
---vim.opt.guicursor = 'n-v-c-sm:block'    -- i absolutely like block carret
+vim.opt.guicursor = 'n-v-c-sm:block'    -- i absolutely like block carret
 
