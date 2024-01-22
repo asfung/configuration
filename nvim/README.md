@@ -12,7 +12,7 @@
 - [Packer.nvim](https://github.com/wbthomason/packer.nvim) is a plugin manager to manage all the plugins
 - [Harpoon](https://github.com/ThePrimeagen/harpoon) is a switching a files by index on the mark list
 - [Mason.nvim](https://github.com/williamboman/mason.nvim) is a plugin that make easily to manage a lsp with a fking interface
-- [Telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) is a fuzzy finder that makes practical to seacrh file project over the list
+- [Telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) is a fuzzy finder that makes practical to search file project over the list
 - [nvim-jdtls](https://github.com/mfussenegger/nvim-jdtls) is a plugin for java development\
 And Other, go to [the plugins station](https://github.com/asfung/configuration/blob/main/nvim/lua/paung/plugins.lua) if u want to see mote plugins
 
