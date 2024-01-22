@@ -18,6 +18,7 @@ end
 local config = {
 
     cmd = {
+        --'/home/Asfung/.sdkman/candidates/java/17.0.9-oracle/bin/java',
         'java',
 
         -- core config
@@ -45,23 +46,23 @@ local config = {
     settings = {
         java = {
 
-            -- home = '/home/Asfung/.sdkman/candidates/java/17.0.9-oracle/',
+            home = '/home/Asfung/.sdkman/candidates/java/21-graalce/',
             eclipse = {
                 downloadSources = true,
             },
-            -- configuration = {
-            --     updateBuildConfiguration = "interactive",
-            --     runtimes = {
-            --         {
-            --             name = "Java21-graalvm",
-            --             path = '/home/Asfung/.sdkman/candidates/java/21-graalce/',
-            --         },
-            --         {
-            --             name = "Java17-Oracle",
-            --             path = '/home/Asfung/.sdkman/candidates/java/17.0.9-oracle/',
-            --         }
-            --     }
-            -- },
+            configuration = {
+                updateBuildConfiguration = "interactive",
+                runtimes = {
+                    {
+                        name = "JavaSE-21",
+                        path = '/home/Asfung/.sdkman/candidates/java/21-graalce',
+                    },
+                    {
+                        name = 'JavaSE-17',
+                        path = '/home/Asfung/.sdkman/candidates/java/17.0.9-oracle',
+                    }
+                }
+            },
 
             maven = {
                 downloadSources = true,

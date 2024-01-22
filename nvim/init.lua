@@ -4,5 +4,3 @@
 --require('colorscheme')
 --require('lsp')
 require('paung')
-require('config.nvim-cmp')
-
