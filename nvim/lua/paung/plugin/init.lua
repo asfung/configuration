@@ -7,5 +7,7 @@ require('paung.plugin.undotree')
 require('paung.plugin.java')
 --require('paung.plugin.jdtls')
 
+-- for auto completion -- like a ass completion
+--require('paung.plugin.auto-cmp')
 
 
