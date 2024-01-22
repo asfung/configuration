@@ -1,6 +1,6 @@
 <div align="center">
 
-## I Use Neovim Btw.
+## I Use Neovim From Scratch Btw.
 
 <img src="https://github.com/asfung/configuration/blob/main/image/nvim_btw.png?raw=true" />
 
