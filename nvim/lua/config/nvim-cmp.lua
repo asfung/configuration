@@ -121,7 +121,7 @@ cmp.setup({
         format = function(entry, vim_item)
             --print("kind:", vim_item.kind)
             --print("Menu:", vim_item.menu)
-            vim_item.kind = (lspkind.presets.default[vim_item.kind] or 'Walah') .. ' ' .. vim_item.kind
+            vim_item.kind = (lspkind.presets.default[vim_item.kind] or 'Walah') .. ' '  .. vim_item.kind
             --vim_item.menu = "⚙️"
             --vim_item.menu = ({
                 --nvim_lsp = '[Lsp]',

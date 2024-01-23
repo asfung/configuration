@@ -98,7 +98,35 @@ return require('packer').startup(function(use)
     --use("saadparwaiz1/cmp_luasnip") 
     use("rafamadriz/friendly-snippets") 
     use("onsails/lspkind.nvim")
+
+    -- dashboard
+    use {
+        'nvimdev/dashboard-nvim',
+        event = 'VimEnter',
+        config = function()
+            require('dashboard').setup {
+                -- config
+               config = {
+                    center = {
+                        {
+                            icon = '',
+                            icon_hl = 'group',
+                            desc = 'description',
+                            desc_hl = 'group',
+                            key = 'shortcut key in dashboard buffer not keymap !!',
+                            key_hl = 'group',
+                            key_format = ' [%s]', -- `%s` will be substituted with value of `key`
+                            action = '',
+                        },
+                    },
+                    footer = {},
+                }
+            }
+        end,
+        requires = {'nvim-tree/nvim-web-devicons'}
+    }
   
+
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
     if packer_bootstrap then
