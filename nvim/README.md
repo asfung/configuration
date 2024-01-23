@@ -14,6 +14,7 @@
 - [Mason.nvim](https://github.com/williamboman/mason.nvim) is a plugin that make easily to manage a lsp with a fking interface
 - [Telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) is a fuzzy finder that makes practical to search file project over the list
 - [nvim-jdtls](https://github.com/mfussenegger/nvim-jdtls) is a plugin for java development\
+- [dashboard-nvim](https://github.com/nvimdev/dashboard-nvim) is a dashboard plugin for neovim
 And Other, go to [the plugins station](https://github.com/asfung/configuration/blob/main/nvim/lua/paung/plugins.lua) if u want to see mote plugins
 
 ### Author
