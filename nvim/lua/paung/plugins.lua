@@ -100,32 +100,44 @@ return require('packer').startup(function(use)
     use("onsails/lspkind.nvim")
 
     -- dashboard
+    -- and they are must require the nvim-tree/nvim-web-devicons
+    use "nvim-tree/nvim-web-devicons"
     use {
-        'nvimdev/dashboard-nvim',
-        event = 'VimEnter',
+        "goolord/alpha-nvim",
+        dependencies = {
+            "nvim-tree/nvim-web-devicons",
+        },
+
         config = function()
-            require('dashboard').setup {
-                -- config
-               config = {
-                    center = {
-                        {
-                            icon = '',
-                            icon_hl = 'group',
-                            desc = 'description',
-                            desc_hl = 'group',
-                            key = 'shortcut key in dashboard buffer not keymap !!',
-                            key_hl = 'group',
-                            key_format = ' [%s]', -- `%s` will be substituted with value of `key`
-                            action = '',
-                        },
-                    },
-                    footer = {},
-                }
-            }
+            local alpha = require("alpha")
+            local dashboard = require("alpha.themes.startify")
+                --vim.cmd("hi DashboardHeader guifg=#4caf50") -- bad habit cause forcing the general startup, i think so
+              dashboard.section.header.val = {
+                  '                     .:::!~!!!!!:.',
+                  '                  .xUHWH!! !!?M88WHX:.         _____      __    __    _____    _____       ________     ____     __    __     ____    ',
+                  '                .X*#M@$!!  !X!M$$$$$$WWx:.    (_   _)     ) )  ( (   / ____\\  / ___/      (___  ___)   (    )    ) )  ( (    (    )   ',
+                  '               :!!!!!!?H! :!$!$$$$$$$$$$8X:     | |      ( (    ) ) ( (___   ( (__            ) )      / /\\ \\   ( (    ) )   / /\\ \\   ',
+                  '              !!~  ~:~!! :~!$!#$$$$$$$$$$8X:    | |       ) )  ( (   \\___ \\   ) __)          ( (      ( (__) )   \\ \\  / /   ( (__) )  ',
+                  '             :!~::!H!<   ~.U$X!?R$$$$$$$$MM!    | |      ( (    ) )      ) ) ( (          __  ) )      )    (     \\ \\/ /     )    (   ',
+                  '             ~!~!!!!~~ .:XW$$$U!!?$$$$$$RMM!   _| |__     ) \\__/ (   ___/ /   \\ \\___     ( (_/ /      /  /\\  \\     \\  /     /  /\\  \\  ',
+                  '               !:~~~ .:!M"T#$$$$WX??#MRRMMM!  /_____(     \\______/  /____/     \\____\\     \\___/      /__(  )__\\     \\/     /__(  )__\\ ',
+                  '               ~?WuxiW*`   `"#$$$$8!!!!??!!!',
+                  '             :X- M$$$$       `"T#$T~!8$WUXU~',
+                  '            :%`  ~#$$$m:        ~!~ ?$$$$$$',
+                  '          :!`.-   ~T$$$$8xx.  .xWW- ~""##*"',
+                  '.....   -~~:<` !    ~?T#$$@@W@*?$$      /`',
+                  'W$@@M!!! .!~~ !!     .:XUW$W!~ `"~:    :',
+                  '#"~~`.:x%`!!  !H:   !WM$$$$Ti.: .!WUn+!`',
+                  ':::~:!!`:X~ .: ?H.!u "$$$B$$$!W:U!T$$M~',
+                  '.~~   :X@!.-~   ?@WTWo("*$$$W$TH$! `',
+                  'Wi.~!X$?!-~   :: ?$$$B$Wu("**$RM!',
+                  '$R@i.~~ !    ::   ~$$$$$B$$en:``',
+                  '?MXT@Wx.~   ::     ~"##*$$$$M'
+              }
+
+            alpha.setup(dashboard.opts)
         end,
-        requires = {'nvim-tree/nvim-web-devicons'}
     }
-  
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
