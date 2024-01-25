@@ -27,3 +27,8 @@ vim.keymap.set('v', '>', '>gv', opts)
 -- previous to netrw menu
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
 
+-- selected movements to up and down
+vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
+vim.keymap.set("v", "K", ":m '>-2<CR>gv=gv")
+
+
