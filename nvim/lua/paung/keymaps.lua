@@ -4,6 +4,7 @@ local opts = {
   silent = true,
 }
 vim.g.mapleader = " " -- initialize the leader map is space
+-- so basically <CR> is the enter instruction thats why he use on end command
 
 -- normal mode on
 --
@@ -30,5 +31,12 @@ vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
 -- selected movements to up and down
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '>-2<CR>gv=gv")
+
+-- greatest keymaps ever
+vim.keymap.set("n", "<leader>cm", ":CellularAutomaton make_it_rain<CR>", opts)
+vim.keymap.set("n", "<leader>cg", ":CellularAutomaton game_of_life<CR>", opts)
+vim.keymap.set("n", "<leader>cs", ":CellularAutomaton scramble<CR>", opts)
+
+
 
 
