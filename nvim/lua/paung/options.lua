@@ -31,3 +31,4 @@ vim.opt.guicursor = 'n-v-c-sm:block'    -- i absolutely like block carret
 
 -- removing netrw banner cuz is so anoying
 vim.g.netrw_banner = 0
+
