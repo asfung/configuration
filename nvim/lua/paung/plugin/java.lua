@@ -117,7 +117,6 @@ local config = {
             useBlocks = true,
         },
     },
-    
 
 }
 

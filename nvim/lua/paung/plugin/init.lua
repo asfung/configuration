@@ -5,9 +5,9 @@ require('paung.plugin.treesitter')
 require('paung.plugin.telescope')
 require('paung.plugin.undotree')
 --require('paung.plugin.java')
---require('paung.plugin.jdtls')
+--require('paung.plugin.jdtls') -- got blocked by mason autostart lmao
 
--- for auto completion -- like a ass completion
+-- for auto completion -- like a ass completion aka [DEPRECATED]
 --require('paung.plugin.auto-cmp')
 
 

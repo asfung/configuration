@@ -11,26 +11,8 @@ require("luasnip/loaders/from_vscode").lazy_load()
 
 local lspkind = require('lspkind')
 lspkind.init({
-    -- DEPRECATED (use mode instead): enables text annotations
-    --
-    -- default: true
-    -- with_text = true,
-
-    -- defines how annotations are shown
-    -- default: symbol
-    -- options: 'text', 'text_symbol', 'symbol_text', 'symbol'
     mode = 'symbol_text',
-
-    -- default symbol map
-    -- can be either 'default' (requires nerd-fonts font) or
-    -- 'codicons' for codicon preset (requires vscode-codicons font)
-    --
-    -- default: 'default'
     preset = 'codicons',
-
-    -- override preset symbols
-    --
-    -- default: {}
     symbol_map = {
         Text = "󰉿",
         Method = "󰆧",
@@ -111,16 +93,8 @@ cmp.setup({
     -- Let's configure the item's appearance
     -- source: https://github.com/hrsh7th/nvim-cmp/wiki/Menu-Appearance
     formatting = {
-        -- Set order from left to right
-        -- kind: single letter indicating the type of completion
-        -- abbr: abbreviation of "word"; when not empty it is used in the menu instead of "word"
-        -- menu: extra text for the popup menu, displayed after "word" or "abbr"
-        --fields = { 'abbr', 'menu' }, -- because this the icon not showed up
-
         -- customize the appearance of the completion menu
         format = function(entry, vim_item)
-            --print("kind:", vim_item.kind)
-            --print("Menu:", vim_item.menu)
             vim_item.kind = (lspkind.presets.default[vim_item.kind] or 'Walah') .. ' '  .. vim_item.kind
             --vim_item.menu = "⚙️"
             --vim_item.menu = ({
