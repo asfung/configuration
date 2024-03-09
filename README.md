@@ -7,7 +7,7 @@
 
 - TESTED ON Ubuntu and Arch (who use my config lol??)
 
-Requirement for Nvim
+Requirementa for Nvim
 - Neovim >= v9.0+ (idk v8 i thinf worked tho)
 - Maven (optional, cuz the plugin is integrated with jdtls)
 - C/C++ Compiler (g++/gcc/clang/llvm/etc..)
