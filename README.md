@@ -9,5 +9,5 @@
 
 Requirementa for Nvim
 - Neovim >= v9.0+ (idk v8 i thinf worked tho)
-- Maven & Java Development Kid (optional, cuz the plugin is integrated with jdtls)
+- Maven & JDK (optional, cuz the plugin is integrated with jdtls)
 - C/C++ Compiler (g++/gcc/clang/llvm/etc..)
