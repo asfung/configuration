@@ -4,6 +4,7 @@ require('paung.plugin.lsp')
 require('paung.plugin.treesitter')
 require('paung.plugin.telescope')
 require('paung.plugin.undotree')
+require('paung.plugin.autopairs-cmp')
 --require('paung.plugin.java')
 --require('paung.plugin.jdtls') -- got blocked by mason autostart lmao
 
