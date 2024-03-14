@@ -5,9 +5,9 @@
 ## curent Asfung's Neovim setup here!✨
 [Click Here](https://github.com/asfung/configuration/tree/main/nvim)
 
-- TESTED ON Ubuntu and Arch (who use my config lol??)
-
 ### Requirements for Nvim Setup
 - Neovim >= v9.0+ (idk v8 i thinf worked tho)
 - Maven & JDK (optional, cuz the plugin is integrated with jdtls)
 - C/C++ Compiler (g++/gcc/clang/llvm/etc..)
+
+- TESTED ON Ubuntu and Arch (who use my config lol??)
