@@ -11,7 +11,7 @@
 - C/C++ Compiler (g++/gcc/clang/llvm/etc)
 
 - <b>TESTED ON Ubuntu and Arch (who use my config lol??)</b>
-- <b>WINDOWS?? do use wsl2 instead</b>
+- <b>WINDOWS?? ohh hell nah (do use wsl2 instead)</b>
 
 
 
