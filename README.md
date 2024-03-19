@@ -6,7 +6,7 @@
 [Click Here](https://github.com/asfung/configuration/tree/main/nvim)
 
 ### Requirements for Nvim Setup
-- Neovim >= v9.0+ (idk if version < 8 worked, i thinf worked tho)
+- Neovim >= v9.0+ (idk if version < 8 worked, i think worked tho)
 - Maven & JDK (optional, cuz the plugin is integrated with jdtls)
 - C/C++ Compiler (g++/gcc/clang/llvm/etc)
 
