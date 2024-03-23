@@ -1,11 +1,11 @@
 ## i3WM Preview
 <p><img src="https://github.com/asfung/configuration/blob/main/image/i3wm.png?raw=true" /></p>
 
-### Bar,Compositor,Tiling Window, Fonts 
+### Bar,Compositor,Tiling Window Manager, Fonts 
 - Polybar
 - Picom
 - i3-gaps
-- Hack Nerd Font, Font Awesome
+- Nerd Font, Font Awesome
 
 
 ## Tmux Preview
