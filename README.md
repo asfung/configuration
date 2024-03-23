@@ -1,3 +1,9 @@
+## i3wm Preview
+<p><img src="https://github.com/asfung/configuration/blob/main/image/i3wm.png?raw=true" /></p>
+- Polybar
+- Picom
+- i3-gaps
+
 ## Tmux Preview
 
 <p><img src="https://github.com/asfung/configuration/blob/main/image/image_1.png?raw=true" /></p>
