@@ -1,8 +1,11 @@
 ## i3wm Preview
 <p><img src="https://github.com/asfung/configuration/blob/main/image/i3wm.png?raw=true" /></p>
+
+### bar,compositor,tiling window 
 - Polybar
 - Picom
 - i3-gaps
+
 
 ## Tmux Preview
 
