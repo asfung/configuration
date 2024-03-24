@@ -1,5 +1,14 @@
 ## i3WM Preview
-<p><img src="https://github.com/asfung/configuration/blob/main/image/i3wm-no-border.png?raw=true" /></p>
+#### No Border
+<div align="center">
+  <p><img src="https://github.com/asfung/configuration/blob/main/image/i3wm-no-border.png?raw=true" /></p>
+</div>
+
+#### Border
+<div align="center">
+  <p><img src="https://github.com/asfung/configuration/blob/main/image/i3wm-border.png?raw=true" /></p>
+</div>
+
 
 ### Bar,Compositor,Tiling Window Manager, Fonts 
 - Polybar
