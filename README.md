@@ -10,7 +10,7 @@
 ## i3WM Lock Preview 
 <p><img src="https://github.com/asfung/configuration/blob/main/image/i3wm-lock.png?raw=true" /></p>
 
-- locks theme is dracula 
+- locks theme is [dracula](https://draculatheme.com/i3lock-color) 
 
 
 ## Tmux Preview
