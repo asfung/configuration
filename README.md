@@ -1,11 +1,15 @@
 ## i3WM Preview
-<p><img src="https://github.com/asfung/configuration/blob/main/image/i3wm.png?raw=true" /></p>
+<p><img src="https://github.com/asfung/configuration/blob/main/image/i3wm-no-border.png?raw=true" /></p>
 
 ### Bar,Compositor,Tiling Window Manager, Fonts 
 - Polybar
 - Picom
-- i3-gaps
+- i3-gaps, i3-locks
 - Nerd Font, Font Awesome
+
+## i3WM Lock Preview 
+<p><img src="https://github.com/asfung/configuration/blob/main/image/i3wm-lock.png?raw=true" /></p>
+- locks theme is dracula 
 
 
 ## Tmux Preview
