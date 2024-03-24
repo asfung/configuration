@@ -1,11 +1,12 @@
 ## i3WM Preview
-#### No Border
+
 <div align="center">
+  #### No Border
   <p><img src="https://github.com/asfung/configuration/blob/main/image/i3wm-no-border.png?raw=true" /></p>
 </div>
 
-#### Border
 <div align="center">
+  #### Border
   <p><img src="https://github.com/asfung/configuration/blob/main/image/i3wm-border.png?raw=true" /></p>
 </div>
 
