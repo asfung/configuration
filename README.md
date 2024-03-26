@@ -20,7 +20,7 @@
 ## i3WM Lock Preview 
 <p><img src="https://github.com/asfung/configuration/blob/main/image/i3wm-lock.png?raw=true" /></p>
 
-- locks theme is [dracula](https://draculatheme.com/i3lock-color) 
+- locks theme is [dracula](https://draculatheme.com/i3lock-color) theme
 
 
 ## Tmux Preview
@@ -36,7 +36,7 @@
 - C/C++ Compiler (g++/gcc/clang/llvm/etc)
 - CMake (cuz c/c++ based)
 
-- <b>TESTED ON Ubuntu and Arch (who use my config lol??)</b>
+- <b>was TESTED ON Ubuntu and Arch (who use my config lol??)</b>
 - <b>WINDOWS?? ohh hell nah (do use wsl2 instead)</b>
 
 
