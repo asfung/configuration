@@ -1,4 +1,6 @@
-<div align="center">I3WM Preview</div>
+<div align="center">
+  <h1>I3WM Preview</h1>
+</div>
 
 <div align="center">
   <h3>No Border</h3>
