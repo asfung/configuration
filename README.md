@@ -19,10 +19,10 @@
 - i3-gaps, i3-locks
 - Nerd Font, Font Awesome, JetBrains Nerd Font
 
-<h3 align="center">i3WM Lock Preview</h3> 
+<h2 align="center">i3WM Lock Preview</h2> 
 <p><img src="https://github.com/asfung/configuration/blob/main/image/i3wm-lock.png?raw=true" /></p>
 
-- locks theme is [dracula](https://draculatheme.com/i3lock-color) theme
+- lock theme is [dracula](https://draculatheme.com/i3lock-color) theme
 
 
 ## Tmux Preview
