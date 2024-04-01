@@ -39,7 +39,7 @@
 - CMake (cuz c/c++ based)
 
 - <b>was TESTED ON Ubuntu and Arch (who use my config lol??)</b>
-- <b>WINDOWS?? ohh hell nah (do use wsl2 instead)</b>
+- <b>WINDOWS?? hell nah (do use wsl2 instead)</b>
 
 
 
