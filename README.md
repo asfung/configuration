@@ -36,7 +36,7 @@
 - Neovim >= v9.0+ (idk if version < 8 worked, i think worked tho)
 - Maven & JDK (optional, cuz the plugin is integrated with jdtls)
 - C/C++ Compiler (g++/gcc/clang/llvm/etc)
-- CMake (cuz c/c++ based)
+- CMake (for now its optional)
 
 - <b>was TESTED ON Ubuntu and Arch (who use my config lol??)</b>
 - <b>WINDOWS?? hell nah (do use wsl2 instead)</b>
