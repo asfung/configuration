@@ -38,7 +38,7 @@
 - C/C++ Compiler (g++/gcc/clang/llvm/etc)
 - CMake (for now its optional)
 
-- <b>was TESTED ON Ubuntu and Arch (who use my config lol??)</b>
+- <b>was TESTED ON Ubuntu and Arch</b>
 - <b>WINDOWS?? hell nah (do use wsl2 instead)</b>
 
 
