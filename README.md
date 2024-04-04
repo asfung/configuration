@@ -39,7 +39,7 @@
 - CMake (for now its optional)
 
 - <b>was TESTED ON Ubuntu and Arch</b>
-- <b>WINDOWS?? hell nah (do use wsl2 instead)</b>
+- <b>WINDOWS?? sorry (do use wsl2 instead)</b>
 
 
 
