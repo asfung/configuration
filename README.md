@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>I3WM Preview</h1>
+  <h1>My I3WM Arch Preview</h1>
 </div>
 
 <div align="center">
@@ -17,7 +17,7 @@
 - Polybar
 - Picom
 - i3-gaps, i3-locks
-- Nerd Font, Font Awesome, JetBrains Nerd Font
+- Nerd Font, Font Awesome, JetBrains Nerd Font 
 
 <h2 align="center">i3WM Lock Preview</h2> 
 <p><img src="https://github.com/asfung/configuration/blob/main/image/i3wm-lock.png?raw=true" /></p>
@@ -29,7 +29,7 @@
 
 <p><img src="https://github.com/asfung/configuration/blob/main/image/image_1.png?raw=true" /></p>
 
-## curent Asfung's Neovim setup here!✨
+## Curent Asfung's Neovim setup here!✨
 [Click Here](https://github.com/asfung/configuration/tree/main/nvim)
 
 ### Requirements for Nvim Setup
