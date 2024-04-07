@@ -38,8 +38,8 @@
 - C/C++ Compiler (g++/gcc/clang/llvm/etc)
 - CMake (optional)
 
-- <b>was TESTED ON Ubuntu and Arch</b>
-- <b>WINDOWS?? sorry (do use wsl2 instead)</b>
+- <b>Was TESTED ON Ubuntu and Arch</b>
+- <b>WINDOWS?? sorry(do use wsl instead)</b>
 
 
 
