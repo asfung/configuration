@@ -22,7 +22,7 @@
 <h2 align="center">i3WM Lock Preview</h2> 
 <p><img src="https://github.com/asfung/configuration/blob/main/image/i3wm-lock.png?raw=true" /></p>
 
-- lock theme is [dracula](https://draculatheme.com/i3lock-color)
+- theme lock by [dracula](https://draculatheme.com/i3lock-color)
 
 
 ## Tmux Preview
