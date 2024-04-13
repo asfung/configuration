@@ -216,7 +216,9 @@ bindsym Print exec scrot $HOME/Pictures/Screenshots/`date +%Y-%m-%d_%H:%M:%S`.pn
 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 #exec_always --no-startup-id $HOME/.config/polybar/tokyo/launch.sh
-exec_always --no-startup-id feh --bg-fill $HOME/Dev/configuration/i3wm/wallpapers/wall.jpg
+#exec_always --no-startup-id feh --bg-fill $HOME/Dev/Idk/configuration/i3wm/wallpapers/wall.jpg
+exec_always --no-startup-id feh --bg-fill $HOME/Dev/Idk/configuration/i3wm/wallpapers/cat_lofi_cafe.jpg
+#exec_always --no-startup-id feh --bg-fill $HOME/Dev/Idk/configuration/i3wm/wallpapers/Dynamic-Wallpapers/Dark/Beach_dark.png
 exec_always --no-startup-id picom --config $HOME/.config/picom/picom-window-blur.conf
 #exec_always --no-startup-id picom --config $HOME/.config/picom/picom_alone.conf
 #exec_always --no-startup-id picom 
