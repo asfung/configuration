@@ -39,8 +39,6 @@
 - C/C++ Compiler (g++/gcc/clang/llvm/etc)
 - CMake (optional)
 
-- <b>Was TESTED ON Ubuntu and Arch(maybe all linux distros)</b>
-//- <b>WINDOWS?? sorry(only can do on wsl)</b>
-
-
+- <b>Got Tested On Ubuntu and Arch</b>
+<!-- - <b>WINDOWS?? sorry(only can do on wsl)</b> !--> 
 
