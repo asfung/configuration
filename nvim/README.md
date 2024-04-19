@@ -18,5 +18,7 @@
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs) is a plugin for autopair of close bracket in code\
 And Other, go to [the plugins station](https://github.com/asfung/configuration/blob/main/nvim/lua/paung/plugins.lua) if u want to see mote plugins
 
+Maybe Switching to Lazy later.....
+
 ### Author
 [Paung](https://github.com/asfung)
