@@ -37,6 +37,6 @@ vim.keymap.set("n", "<leader>cm", ":CellularAutomaton make_it_rain<CR>", opts)
 vim.keymap.set("n", "<leader>cg", ":CellularAutomaton game_of_life<CR>", opts)
 vim.keymap.set("n", "<leader>cs", ":CellularAutomaton scramble<CR>", opts)
 
-
-
+-- saving copied buffer vim and system clipboard
+vim.keymap.set("v", "cp", "\"*y", opts);
 
