@@ -133,6 +133,7 @@ return require('packer').startup(function(use)
     }
 
     use "windwp/nvim-autopairs"
+    use { 'numToStr/Comment.nvim', }
 
 
     -- Automatically set up your configuration after cloning packer.nvim
