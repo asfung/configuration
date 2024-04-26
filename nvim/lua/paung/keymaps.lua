@@ -38,7 +38,7 @@ vim.keymap.set("n", "<leader>cg", ":CellularAutomaton game_of_life<CR>", opts)
 vim.keymap.set("n", "<leader>cs", ":CellularAutomaton scramble<CR>", opts)
 
 -- saving copied buffer vim and system clipboard
-vim.keymap.set("v", "cp", "\"*y", opts);
+vim.keymap.set("v", "<C-S-c", "\"*y", opts);
 
 -- split window
 vim.keymap.set('n', '<leader>H', ':vsplit<CR><C-w>h', opts) -- left
