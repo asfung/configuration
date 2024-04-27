@@ -17,7 +17,7 @@
 - Polybar 
 - Picom 
 - i3-gaps, i3-locks 
-- Nerd Font, Font Awesome, JetBrains Nerd Font
+- Nerd Font, Font Awesome, JetBrains NF
 - [Wallpapers](https://github.com/asfung/configuration/tree/main/i3wm/wallpapers)
 
 <h2 align="center">i3WM Lock Preview</h2> 
