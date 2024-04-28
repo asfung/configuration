@@ -13,8 +13,9 @@
 </div>
 
 
-### Bar,Compositor,Tiling Window Manager, Fonts 
+### Bar,Compositor,Tiling Window Manager, Fonts, Etc
 - Polybar 
+- Rofi
 - Picom 
 - i3-gaps, i3-locks 
 - [Nerd Font](https://nerdfonts.com), Font Awesome, JetBrains NF
