@@ -43,6 +43,6 @@
 - C/C++ Compiler (its needed for treesitter)
 - CMake (optional)
 
-- <b>Got Tested On Ubuntu and Arch</b>
+- <b>Has been tested on Ubuntu and Arch</b>
 <!-- - <b>WINDOWS?? sorry(only can do on wsl)</b> !--> 
 
