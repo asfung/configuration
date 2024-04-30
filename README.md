@@ -38,9 +38,9 @@
 [Click Here](https://github.com/asfung/configuration/tree/main/nvim)
 
 ### Requirements for Nvim Setup
-- Neovim >= v9.0+ (idk if version < 8 worked, i think worked tho)
+- Neovim >= v9.0+ 
 - Maven & JDK (optional, cuz the plugin is integrated with jdtls)
-- C/C++ Compiler (g++/gcc/clang/llvm/etc)
+- C/C++ Compiler (its needed for treesitter)
 - CMake (optional)
 
 - <b>Got Tested On Ubuntu and Arch</b>
