@@ -44,5 +44,4 @@
 - CMake (optional)
 
 - <b>Has been tested on Ubuntu and Arch</b>
-<!-- - <b>WINDOWS?? sorry(only can do on wsl)</b> !--> 
 
