@@ -1,3 +1,5 @@
 todo.txt
 nvim/plugin
+.dockerignore
+Dockerfile
 
