@@ -33,5 +33,4 @@ dashboard.section.buttons.val = {
     dashboard.button( "q", "  > Quit NVIM", ":qa<CR>"),
 }
 
-
 alpha.setup(dashboard.opts)
