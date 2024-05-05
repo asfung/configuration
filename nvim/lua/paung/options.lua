@@ -10,7 +10,7 @@ vim.opt.shiftwidth = 4
 vim.opt.expandtab = true 
 
 -- ui layout
-vim.opt.number = true 
+vim.opt.number = false 
 vim.opt.relativenumber = true 
 vim.opt.cursorline = false
 vim.opt.splitbelow = true 
