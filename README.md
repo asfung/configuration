@@ -39,7 +39,7 @@
 
 ### Requirements for Nvim Setup
 - Neovim >= v9.0+ 
-- Maven3.5 & JDK17+ (optional, cuz the plugin is integrated with jdtls)
+- Maven3.5+ & JDK17+ (optional, cuz the plugin is integrated with jdtls)
 - C/C++ Compiler (its needed for treesitter)
 - CMake (optional)
 
