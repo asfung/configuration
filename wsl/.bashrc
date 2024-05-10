@@ -130,7 +130,7 @@ alias 'dev'='cd ~/Dev'
 #export PS1='\u@\h:\[\e[32m\]\w\[\e[0m\]\$ '
 
 # biru
-#export PS1='\u@\h:\[\e[94m\]\w\[\e[0m\]\$ '
+export PS1='\u@\h:\[\e[94m\]\w\[\e[0m\]\$ '
 
 
 # window server XLaunch client
