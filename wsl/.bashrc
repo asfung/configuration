@@ -117,6 +117,7 @@ if ! shopt -oq posix; then
 fi
 
 export PATH='/home/paung/apps/neovim/nvim-linux64/bin':$PATH
+export PATH='/home/paung/scripts':$PATH
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
