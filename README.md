@@ -45,3 +45,18 @@
 
 - <b>Has been tested on Ubuntu and Arch</b>
 
+### Quick Setup Nvim
+```bash
+# get the setup file
+$ wget https://raw.githubusercontent.com/asfung/configuration/main/setup_nvim.sh
+# give it  access premission 
+$ chmod +x setup_nvim.sh
+# execute the setup file
+$ ./setup_nvim.sh
+# execute the nvim then waiting plugins installing process until done
+$ nvim 
+```
+now u ready to lit it up with nvim🔥🔥
+
+
+
