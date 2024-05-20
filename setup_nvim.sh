@@ -7,6 +7,6 @@ git sparse-checkout set nvim
 
 cp -r ~/configuration/nvim ~/.config/
 # cp -r ~/configuration/nvim ~/sini # testing
-# rm -r ~/configuration 
+sudo rm -r ~/configuration 
 
 
