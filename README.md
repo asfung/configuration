@@ -45,7 +45,7 @@
 
 - <b>Has been tested on Ubuntu and Arch</b>
 
-### Quick Setup Nvim
+### Getting Started Nvim Setup 
 ```bash
 # get the setup file
 $ wget https://raw.githubusercontent.com/asfung/configuration/main/setup_nvim.sh
