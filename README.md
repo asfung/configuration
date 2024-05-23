@@ -34,7 +34,7 @@
 #### Requirement for Tmux 
 - [TPM (Tmux Plugin Manager)](https://github.com/tmux-plugins/tpm) (optional)
 
-## Neovim setup here
+## Neovim setup here man
 [Click Here](https://github.com/asfung/configuration/tree/main/nvim)
 
 ### Requirements for Nvim Setup
@@ -56,7 +56,7 @@ $ ./setup_nvim.sh
 # execute the nvim and waiting plugins installing process until done
 $ nvim 
 ```
-now u ready to lit it up with nvim🔥🔥
+now u ready to lit it up man🔥🔥
 
 
 
