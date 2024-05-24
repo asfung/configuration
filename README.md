@@ -56,7 +56,7 @@ $ ./setup_nvim.sh
 # execute the nvim and waiting plugins installing process until done
 $ nvim 
 ```
-now u ready to lit it up man🔥🔥
+#now u ready to lit it up man🔥🔥
 
 
 
