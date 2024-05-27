@@ -18,6 +18,7 @@
 - Rofi
 - Picom 
 - i3-gaps, i3-locks 
+- fish shell
 - [Nerd Font](https://nerdfonts.com), Font Awesome, JetBrains NF
 - [Wallpapers](https://github.com/asfung/configuration/tree/main/i3wm/wallpapers)
 
