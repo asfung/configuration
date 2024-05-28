@@ -16,7 +16,7 @@
 - [nvim-jdtls](https://github.com/mfussenegger/nvim-jdtls) is a plugin for java development
 - [dashboard-nvim](https://github.com/nvimdev/dashboard-nvim) is a dashboard plugin for neovim
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs) is a plugin for autopair of close bracket in code\
-And Other, go to [the plugins station](https://github.com/asfung/configuration/blob/main/nvim/lua/paung/plugins.lua) if u want to see mote plugins
+Some Themes And  Other, go to [the plugins station](https://github.com/asfung/configuration/blob/main/nvim/lua/paung/plugins.lua) if u want to see mote plugins
 
 ### Author
 [Paung](https://github.com/asfung)
