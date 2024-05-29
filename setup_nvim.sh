@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git clone --filte=blob:none --no-checkout git@github.com:asfung/configuration.git ~/configuration && cd ~/configuration
+git clone --filter=blob:none --no-checkout git@github.com:asfung/configuration.git ~/configuration && cd ~/configuration
 git sparse-checkout set --cone
 git checkout main
 git sparse-checkout set nvim
