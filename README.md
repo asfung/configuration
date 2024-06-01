@@ -15,8 +15,8 @@
 
 ### Bar,Compositor,Tiling Window Manager, Fonts, Etc
 - Polybar 
-- Rofi
-- Picom 
+- [Rofi](https://github.com/davatorium/rofi)
+- [Picom](https://github.com/yshui/picom)
 - i3-gaps, i3-locks 
 - [Fish Shell](https://fishshell.com)
 - [Nerd Font](https://nerdfonts.com), Font Awesome, JetBrains NF
