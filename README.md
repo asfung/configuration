@@ -14,7 +14,7 @@
 
 
 ### Bar,Compositor,Tiling Window Manager, Fonts, Etc
-- Polybar 
+- [Polybar](https://github.com/polybar/polybar)
 - [Rofi](https://github.com/davatorium/rofi)
 - [Picom](https://github.com/yshui/picom)
 - i3-gaps, i3-locks 
