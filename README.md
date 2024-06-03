@@ -40,7 +40,7 @@
 
 ### Requirements for Nvim Setup
 - Neovim >= v9.0+ 
-- Maven3.XX.X+ & JDK17.XX.X+ (optional, cuz the plugin is integrated with jdtls)
+- Maven3.XX.X+ & JDK17.XX.X+ (optional)
 - C/C++ Compiler 
 - CMake 
 
@@ -54,7 +54,7 @@ $ wget https://raw.githubusercontent.com/asfung/configuration/main/setup_nvim.sh
 $ chmod +x setup_nvim.sh
 # execute the setup file
 $ ./setup_nvim.sh
-# execute the nvim and waiting plugins installing process until done
+# execute the nvim and waiting the plugins installed 
 $ nvim 
 ```
 <!-- now u ready to lit it up man🔥🔥-->
