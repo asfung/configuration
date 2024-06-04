@@ -17,7 +17,7 @@
 - [Polybar](https://github.com/polybar/polybar)
 - [Rofi](https://github.com/davatorium/rofi)
 - [Picom](https://github.com/yshui/picom)
-- i3-gaps, i3-locks 
+- i3-gaps, [i3-lock](https://github.com/i3/i3lock)
 - [Fish Shell](https://fishshell.com)
 - [Nerd Font](https://nerdfonts.com), Font Awesome, JetBrains NF
 - [Wallpapers](https://github.com/asfung/configuration/tree/main/i3wm/wallpapers)
