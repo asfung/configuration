@@ -139,5 +139,6 @@ export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/nu
 export LIBGL_ALWAYS_INDIRECT=0
 
 alias 'vim'='nvim'
+# export TERM=xterm-color #nvim blank screen issue
 
 
