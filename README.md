@@ -25,7 +25,7 @@
 <h2 align="center">i3WM Lock Preview</h2> 
 <p><img src="https://github.com/asfung/configuration/blob/main/image/i3wm-lock.png?raw=true" /></p>
 
-- theme lock by [dracula](https://draculatheme.com/i3lock-color)
+- Theme Lock by [dracula](https://draculatheme.com/i3lock-color)
 
 
 ## Tmux Preview
@@ -41,7 +41,7 @@
 ### Requirements for Nvim Setup
 - Neovim >= v9.0+ 
 - Maven3.XX.X+ & JDK17.XX.X+ (optional)
-- C/C++ Compiler 
+- C/C++ Compiler (ofc linux has it)
 - CMake 
 
 - <b>Has been tested on Ubuntu and Arch(Only Unix/GNU Linux)</b>
