@@ -33,7 +33,7 @@
 <p><img src="https://github.com/asfung/configuration/blob/main/image/image_1.png?raw=true" /></p>
 
 #### Requirement for Tmux 
-- [TPM (Tmux Plugin Manager)](https://github.com/tmux-plugins/tpm) (optional)
+- [TPM (Tmux Plugin Manager)](https://github.com/tmux-plugins/tpm) (no needed for rn)
 
 ## Neovim setup here man
 [Click Here](https://github.com/asfung/configuration/tree/main/nvim)
