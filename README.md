@@ -43,6 +43,7 @@
 - Maven3.XX.X+ & JDK17.XX.X+ (optional)
 - C/C++ Compiler (ofc linux has it)
 - CMake 
+- NPM (just npm in your linux dont included node)
 
 - <b>Has been tested on Ubuntu and Arch(Only Unix/GNU Linux)</b>
 
