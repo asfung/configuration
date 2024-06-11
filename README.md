@@ -43,7 +43,7 @@
 - Maven3.XX.X+ & JDK17.XX.X+ (optional)
 - C/C++ Compiler (ofc linux has it)
 - CMake 
-- NPM (cus it has lsp manager)
+- NPM (for tsserver->mason)
 
 - <b>Has been tested on Ubuntu and Arch(Only Unix/GNU Linux)</b>
 
