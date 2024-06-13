@@ -54,7 +54,7 @@ $ wget https://raw.githubusercontent.com/asfung/configuration/main/setup_nvim.sh
 # give it  access premission 
 $ chmod +x setup_nvim.sh
 # execute the setup file
-$ ./setup_nvim.sh
+$ ./setup_nvim.sh # Recommended with superuser
 # execute the nvim and waiting the plugins installed 
 $ nvim 
 ```
