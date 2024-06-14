@@ -45,7 +45,7 @@
 - CMake 
 - NPM (for tsserver->mason)
 
-- <b>Has been tested on Ubuntu and Arch(Only Unix/GNU Linux)</b>
+- <b>Has been tested on Ubuntu and Arch(Only Unix/GNU Linux,For Windows, using WSL)</b>
 
 ### Getting Started Nvim Setup 
 ```bash
