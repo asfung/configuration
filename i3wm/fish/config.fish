@@ -16,4 +16,5 @@ if status is-interactive
     alias 'lockscreen_blue'='~/.config/i3lock/lock'
     alias 'vi'='vim'
     alias 'piton'='source ~/python-primary/bin/activate.fish'
+    #export PATH="/home/maron/android/cmdline-tools/tools/bin:$PATH"
 end
