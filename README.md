@@ -29,7 +29,6 @@
 
 
 ## Tmux Preview
-
 <p><img src="https://github.com/asfung/configuration/blob/main/image/image_1.png?raw=true" /></p>
 
 #### Requirement for Tmux 
@@ -43,7 +42,7 @@
 - Maven3.XX.X+ & JDK17.XX.X+
 - C/C++ Compiler (ofc linux has it)
 - CMake 
-- NPM (for tsserver->mason)
+- NPM (for mason plugin)
 
 - <b>Has been tested on Ubuntu and Arch(Only Unix/GNU Linux, Windows? use WSL instead)</b>
 
