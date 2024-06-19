@@ -44,7 +44,7 @@
 - CMake 
 - NPM (for mason plugin)
 
-- <b>Has been tested on Ubuntu and Arch(Only Unix/GNU Linux, Windows? use WSL instead)</b>
+- <b>Has been tested on Ubuntu and Arch(Only Unix,GNU/Linux, Windows? use WSL instead)</b>
 
 ### Getting Started Nvim Setup 
 ```bash
