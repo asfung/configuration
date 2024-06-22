@@ -45,3 +45,5 @@ vim.keymap.set('n', '<leader>H', ':vsplit<CR><C-w>h', opts) -- left
 vim.keymap.set('n', '<leader>J', ':split<CR><C-w>j', opts) -- bottom
 vim.keymap.set('n', '<leader>K', ':split<CR><C-w>k', opts) -- top
 vim.keymap.set('n', '<leader>L', ':vsplit<CR><C-w>l', opts) -- right
+
+
