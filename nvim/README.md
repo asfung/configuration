@@ -2,7 +2,8 @@
 
 ## I Use Neovim From Scratch Btw.
 
-<img src="https://github.com/asfung/configuration/blob/main/image/nvim_btw.png?raw=true" />
+<!-- <img src="https://github.com/asfung/configuration/blob/main/image/nvim_btw.png?raw=true" /> -->
+<img src="https://github.com/asfung/configuration/blob/main/image/kanagawa_wave.png?raw=true" />
 
 [![Neovim](https://img.shields.io/badge/Neovim-57A143.svg?style=for-the-badge&logo=Neovim&logoColor=white)](https://neovim.io)
 ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)
