@@ -42,7 +42,7 @@
 - Neovim >= v9.0+ 
 - Maven3.XX.X+ & JDK17.XX.X+
 - C/C++ Compiler (ofc linux has it, use mingGW/MYSYS2 if using windows)
-- CMake (downloaded it on web for windows)
+- CMake (recommended to use it if on windows)
 - NPM (for mason plugin)
 
 - <b>Has been tested on Ubuntu and Arch(Only Unix,GNU/Linux, Windows? use WSL instead)</b>
