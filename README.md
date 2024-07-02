@@ -41,7 +41,7 @@
 ### Requirements for Nvim Setup
 - Neovim >= v9.0+ 
 - Maven3.XX.X+ & JDK17.XX.X+
-- C/C++ Compiler (ofc linux has it, use mingGW/MYSYS2 if using windows)
+- C/C++ Compiler (use mingGW/MYSYS2 if using windows)
 - CMake (recommended to install it if on windows)
 - NPM (for mason plugin)
 
