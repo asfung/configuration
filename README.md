@@ -43,7 +43,7 @@
 - Maven3.XX.X+ & JDK17.XX.X+
 - C/C++ Compiler (use mingGW/MYSYS2 if using windows)
 - CMake (recommended to install it if on windows)
-- NPM (for mason plugin)
+- NPM (mason plugin, also integrated lsp)
 
 - <b>Has been tested on Ubuntu and Arch(Only Unix,GNU/Linux, Windows? use WSL instead)</b>
 
