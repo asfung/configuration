@@ -30,7 +30,7 @@
 
 ## Tmux Preview
 <p><img src="https://github.com/asfung/configuration/blob/main/image/image_1.png?raw=true" /></p>
-*need tpm for that one*
+*require tpm for that one*
 
 #### Requirement for Tmux 
 - [TPM (Tmux Plugin Manager)](https://github.com/tmux-plugins/tpm) (no needed for rn)
