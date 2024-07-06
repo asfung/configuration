@@ -3,12 +3,12 @@
 </div>
 
 <div align="center">
-  <h3>No Border</h3>
+  <h3>Border Off</h3>
   <p><img src="https://github.com/asfung/configuration/blob/main/image/i3wm-no-border.png?raw=true" /></p>
 </div>
 
 <div align="center">
-  <h3>Border</h3>
+  <h3>Border On</h3>
   <p><img src="https://github.com/asfung/configuration/blob/main/image/i3wm-border.png?raw=true" /></p>
 </div>
 
