@@ -22,7 +22,8 @@
 - [Nerd Font](https://nerdfonts.com), [Font Awesome](https://fontawesome.com/download), [JetBrains NF](https://www.nerdfonts.com/font-downloads)
 - [Wallpapers](https://github.com/asfung/configuration/tree/main/i3wm/wallpapers)
 
-<h2 align="center">i3WM Lock Preview</h2> 
+<!-- <h2 align="center">i3WM Lock Preview</h2>  -->
+<h2 align="center">Lock Preview</h2> 
 <p><img src="https://github.com/asfung/configuration/blob/main/image/i3wm-lock.png?raw=true" /></p>
 
 - Theme Lock by [dracula](https://draculatheme.com/i3lock-color)
