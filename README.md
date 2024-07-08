@@ -46,7 +46,7 @@
 - CMake (recommended to install it if on windows)
 - NPM (mason plugin, also integrated lsp)
 
-- <b>Has been tested on Ubuntu and Arch(Only Unix,GNU/Linux, Windows? use WSL instead)</b>
+- <b>Has been tested on Ubuntu and Arch(Only Unix,GNU/Linux, WSL)</b>
 
 ### Getting Started Nvim Setup 
 ```bash
