@@ -40,7 +40,7 @@
 [Click Here](https://github.com/asfung/configuration/tree/main/nvim)
 
 ### Requirements for Nvim Setup
-- Neovim >= v9.0+ 
+- [Neovim](https://neovim.io/) >= v9.0+ 
 - Maven3.XX.X+ & JDK17.XX.X+
 - C/C++ Compiler (use mingGW/MYSYS2 if using windows)
 - [CMake](https://cmake.org) (recommended to install it if on windows)
