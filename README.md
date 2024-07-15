@@ -41,7 +41,7 @@
 
 ### Requirements for Nvim Setup
 - [Neovim](https://neovim.io/) >= v9.0+ 
-- [Maven3.XX.X+](https://maven.apache.org) & JDK17.XX.X+
+- [Maven3.XX.X+](https://maven.apache.org) & [JDK17.XX.X+](https://www.oracle.com/id/java/technologies/downloads/)
 - C/C++ Compiler (use [mingGW](https://github.com/niXman/mingw-builds-binaries/releases)/[MYSYS2](https://www.msys2.org) if using windows)
 - [CMake](https://cmake.org) (recommended to install it if on windows)
 - NPM (mason plugin)
