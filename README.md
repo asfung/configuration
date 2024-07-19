@@ -22,7 +22,6 @@
 - [Nerd Font](https://nerdfonts.com), [Font Awesome](https://fontawesome.com/download), [JetBrains NF](https://www.nerdfonts.com/font-downloads)
 - [Wallpapers](https://github.com/asfung/configuration/tree/main/i3wm/wallpapers)
 
-<!-- <h2 align="center">i3WM Lock Preview</h2>  -->
 <h2 align="center">Lock Preview</h2> 
 <p><img src="https://github.com/asfung/configuration/blob/main/image/i3wm-lock.png?raw=true" /></p>
 
@@ -44,7 +43,7 @@
 - [Maven3.XX.X+](https://maven.apache.org) & [JDK17.XX.X+](https://www.oracle.com/id/java/technologies/downloads/)
 - C/C++ Compiler (use [mingGW](https://github.com/niXman/mingw-builds-binaries/releases)/[MYSYS2](https://www.msys2.org) if using windows)
 - [CMake](https://cmake.org) (recommended to install if on windows)
-- [NPM](https://nodejs.org/en/download/package-manager) (mason plugin)
+- [NPM](https://nodejs.org/en/download/package-manager) (for mason plugin)
 
 - <b>Has been tested on Ubuntu and Arch(available on Unix,GNU/Linux, also WSL)</b>
 
