@@ -33,7 +33,7 @@
 *require tpm for that one*
 
 #### Requirement for Tmux 
-- [TPM (Tmux Plugin Manager)](https://github.com/tmux-plugins/tpm) (no needed for rn)
+- [TPM (Tmux Plugin Manager)](https://github.com/tmux-plugins/tpm) (no needed for now)
 
 ## Neovim setup here man
 [Click Here](https://github.com/asfung/configuration/tree/main/nvim)
