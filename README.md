@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>I3WM Arch Preview</h1>
+  <h1>Preview</h1>
 </div>
 
 <div align="center">
