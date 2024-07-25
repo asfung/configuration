@@ -59,7 +59,7 @@ $ ./setup_nvim.sh # Recommended with superuser
 # execute the nvim and waiting the plugins installed 
 $ nvim 
 ```
-now nvim ready to use
+have fun code in vim ;)
 <!-- now ready to lit it up man🔥🔥 -->
 
 
