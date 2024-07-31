@@ -60,7 +60,6 @@ $ ./setup_nvim.sh # Recommended with superuser
 $ nvim 
 ```
 have fun code in vim ;)
-<!-- now ready to lit it up man🔥🔥 -->
 
 
 
