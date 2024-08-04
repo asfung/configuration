@@ -56,11 +56,10 @@ $ wget https://raw.githubusercontent.com/asfung/configuration/main/setup_nvim.sh
 $ chmod +x setup_nvim.sh
 # execute the setup file
 $ ./setup_nvim.sh # Recommended using with superuser
-# execute the nvim and waiting the plugins installed 
+# Run nvim and wait for the plugins to be installed.
 $ nvim 
 ```
 have fun code in vim ;)
-
 
 
 
