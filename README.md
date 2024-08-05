@@ -52,7 +52,7 @@
 ```bash
 # get the setup file
 $ wget https://raw.githubusercontent.com/asfung/configuration/main/setup_nvim.sh
-# give it  access premission 
+# give it access permission 
 $ chmod +x setup_nvim.sh
 # execute the setup file
 $ ./setup_nvim.sh # Recommended using with superuser
