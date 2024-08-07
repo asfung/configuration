@@ -45,7 +45,7 @@
 - [CMake](https://cmake.org) (recommended)
 - [NPM](https://nodejs.org/en/download/package-manager) (for mason plugin)
 
-- <b>Tested on Ubuntu, Arch, and WSL</b>
+- <b>Tested on Ubuntu, Arch, WSL, and also Windows Too</b>
 
 
 ### Getting Started Nvim Setup 
@@ -60,5 +60,7 @@ $ ./setup_nvim.sh # Recommended using with superuser
 $ nvim 
 ```
 have fun code in vim ;)
+
+
 
 
