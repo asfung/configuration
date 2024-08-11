@@ -48,6 +48,7 @@
 - <b>Tested on Ubuntu, Arch, WSL, and also Windows</b>
 
 
+## Linux
 ### Getting Started Nvim Setup 
 ```bash
 # get the setup file
