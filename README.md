@@ -62,5 +62,7 @@ $ nvim
 ```
 have fun code in vim ;)
 
+## Windows
+### Soon
 
 
