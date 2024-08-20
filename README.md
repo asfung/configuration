@@ -63,8 +63,7 @@ $ nvim
 have fun code in vim ;)
 
 ## Windows
-```
-ps1
+```ps1
 
 :: grab the setup file 
 PS1 $ Invoke-WebRequest -Uri https://raw.githubusercontent.com/asfung/configuration/main/setup_nvim_windows.ps1 -OutFile setup_nvim_windows.ps1
