@@ -65,11 +65,14 @@ have fun code in vim ;)
 ## Windows
 ```ps1
 
-:: grab the setup file 
-PS1 $ Invoke-WebRequest -Uri https://raw.githubusercontent.com/asfung/configuration/main/setup_nvim_windows.ps1 -OutFile setup_nvim_windows.ps1
+# grab the setup file 
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/asfung/configuration/main/setup_nvim_windows.ps1 -OutFile setup_nvim_windows.ps1
 
-:: run the setup script
-PS1 $ powershell -ExecutionPolicy Bypass -File .\nvim_setup.ps1
+# run the setup script
+powershell -ExecutionPolicy Bypass -File .\nvim_setup.ps1
+
+# Run nvim and wait for the plugins to be installed.
+nvim 
 ```
 
 
