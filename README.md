@@ -63,7 +63,7 @@ $ nvim
 have fun code in vim ;)
 
 ## Windows
-### Soon
+### Soon (wsl ajalah udah)
 
 
 
