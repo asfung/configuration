@@ -8,3 +8,4 @@ git sparse-checkout set nvim
 # Copy-Item -Path $env:USERPROFILE\configuration\nvim -Destination $env:LOCALAPPDATA\nvim_dua -Recurse -Force
 Copy-Item -Path $env:USERPROFILE\configuration\nvim -Destination $env:LOCALAPPDATA\nvim -Recurse -Force
 Remove-Item -Path $env:USERPROFILE\configuration -Recurse -Force
+
