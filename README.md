@@ -65,7 +65,7 @@ have fun code in vim ;)
 ## Windows
 ```ps1
 
-# grab the setup file 
+# grab the powershell script setup file 
 Invoke-WebRequest -Uri https://raw.githubusercontent.com/asfung/configuration/main/setup_nvim_windows.ps1 -OutFile setup_nvim_windows.ps1
 
 # run the setup script
