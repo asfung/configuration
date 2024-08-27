@@ -1,0 +1,6 @@
+require('paung.options')
+require('paung.keymaps')
+require('paung.plugins')
+require('paung.colorscheme')
+--require('paung.lsp')
+require('paung.plugin')
