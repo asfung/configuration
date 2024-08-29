@@ -71,7 +71,7 @@ Invoke-WebRequest -Uri https://raw.githubusercontent.com/asfung/configuration/ma
 # run the setup script
 powershell -ExecutionPolicy Bypass -File .\nvim_setup.ps1
 
-# Run nvim and wait for the plugins to be installed.
+# Run nvim and wait til the plugins being installed.
 nvim 
 ```
 
