@@ -48,8 +48,8 @@
 - <b>Tested on Ubuntu, Arch, WSL, and also Windows</b>
 
 
+# Getting Started Nvim Setup 
 ## Linux
-### Getting Started Nvim Setup 
 ```bash
 # get the setup file
 $ wget https://raw.githubusercontent.com/asfung/configuration/main/setup_nvim.sh
