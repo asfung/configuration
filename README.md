@@ -74,8 +74,7 @@ powershell -ExecutionPolicy Bypass -File .\nvim_setup.ps1
 # Run nvim and wait til the plugins being installed.
 nvim 
 ```
-
-have fun code in vim ;)
+#### have fun code in vim ;)
 
 
 
