@@ -60,7 +60,6 @@ $ ./setup_nvim.sh # Recommended using with superuser
 # Run nvim and wait for the plugins to be installed.
 $ nvim 
 ```
-<!-- have fun code in vim ;) -->
 
 ## Windows
 ```ps1
