@@ -67,13 +67,14 @@ $ nvim
 # grab the powershell script setup file by url
 Invoke-WebRequest -Uri https://raw.githubusercontent.com/asfung/configuration/main/setup_nvim_windows.ps1 -OutFile setup_nvim_windows.ps1
 
-# run the setup script
+# exec the setup script with powershell
 powershell -ExecutionPolicy Bypass -File .\nvim_setup.ps1
 
 # Run nvim and wait til the plugins being installed.
 nvim 
 ```
 #### have fun code in vim ;)
+
 
 
 
