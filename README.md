@@ -63,7 +63,7 @@ $ nvim
 
 ## Windows (Powershell)
 ```ps1
-# grab the powershell script setup file by url
+# get the powershell script setup file by url
 Invoke-WebRequest -Uri https://raw.githubusercontent.com/asfung/configuration/main/setup_nvim_windows.ps1 -OutFile setup_nvim_windows.ps1
 
 # execute the setup script with
