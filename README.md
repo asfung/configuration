@@ -51,7 +51,7 @@
 # Getting Started Nvim Setup 
 ## Linux
 ```bash
-# get the setup file by url
+# get bash script the setup file by url
 $ wget https://raw.githubusercontent.com/asfung/configuration/main/setup_nvim.sh
 # give it access super permission 
 $ chmod +x setup_nvim.sh
