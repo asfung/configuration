@@ -35,7 +35,7 @@
 #### Requirement for Tmux 
 - [TPM (Tmux Plugin Manager)](https://github.com/tmux-plugins/tpm) (no needed for now)
 
-## Neovim setup here man
+## Neovim setup here 
 [Click Here](https://github.com/asfung/configuration/tree/main/nvim)
 
 ### Requirements for Nvim Setup
@@ -73,7 +73,6 @@ powershell -ExecutionPolicy Bypass -File .\nvim_setup.ps1
 nvim 
 ```
 #### have fun code in vim ;)
-
 
 
 
