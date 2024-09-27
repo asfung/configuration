@@ -45,7 +45,7 @@
 - [CMake](https://cmake.org) (recommended to download it)
 - [NPM](https://nodejs.org/en/download/package-manager) (for mason plugin)
 
-- <b>Tested on Ubuntu, Arch, WSL, and also Windows</b>
+- <b>Tested on Ubuntu, Arch, WSL, and Windows</b>
 
 
 # Getting Started Nvim Setup 
