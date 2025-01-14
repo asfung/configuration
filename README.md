@@ -74,11 +74,3 @@ nvim
 ```
 #### have fun code ;)
 
-
-Paung@15/10/24
-
-
-
-
-
-
