@@ -75,8 +75,3 @@ nvim
 #### have fun code ;)
 
 
-
-
-
-
-
