@@ -106,6 +106,17 @@ return require('packer').startup(function(use)
     use { 'numToStr/Comment.nvim', }
     use "rebelot/kanagawa.nvim"
     use {'nyoom-engineering/oxocarbon.nvim'}
+    use { "ellisonleao/gruvbox.nvim" }
+    use { "blazkowolf/gruber-darker.nvim" }
+
+    -- this is great too but i tried copliot
+    use {
+        "supermaven-inc/supermaven-nvim",
+    }
+
+    use { "zbirenbaum/copilot.lua" }
+
+
 
 
     -- Automatically set up your configuration after cloning packer.nvim

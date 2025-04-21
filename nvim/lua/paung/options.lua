@@ -10,7 +10,7 @@ vim.opt.shiftwidth = 4
 vim.opt.expandtab = true 
 
 -- ui layout
-vim.opt.number = false 
+vim.opt.number = true
 vim.opt.relativenumber = true 
 vim.opt.cursorline = false
 vim.opt.splitbelow = true 
@@ -32,4 +32,10 @@ vim.opt.guicursor = 'n-v-c-sm:block'    -- i absolutely like block carret
 -- removing netrw banner cuz is so anoying
 vim.g.netrw_banner = 0
 
+-- blade thingz
+vim.filetype.add({
+    pattern = {
+        [".*%.blade%.php"] = "blade",
+    },
+})
 
