@@ -73,3 +73,7 @@ powershell -ExecutionPolicy Bypass -File .\nvim_setup.ps1
 nvim 
 ```
 #### have fun code ;)
+
+
+
+
