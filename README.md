@@ -29,8 +29,10 @@
 
 
 ## Tmux Preview
-<p><img src="https://github.com/asfung/configuration/blob/main/image/image_1.png?raw=true" /></p>
-*tpm required*
+<!-- <p><img src="https://github.com/asfung/configuration/blob/main/image/image_1.png?raw=true" /></p> -->
+<!-- *tpm required* -->
+
+<p><img src="https://github.com/asfung/configuration/blob/main/image/tmux_2.png?raw=true" /></p>
 
 #### Requirement for Tmux 
 - [TPM (Tmux Plugin Manager)](https://github.com/tmux-plugins/tpm) (optional).
