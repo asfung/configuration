@@ -1,3 +1,4 @@
+local home = os.getenv("HOME")
 
 -- deklar varible bang
 local jdtls_root_dir = vim.fn.stdpath('data') .. '/mason/packages/jdtls'
@@ -13,6 +14,12 @@ local root_dir = require("jdtls.setup").find_root(root_markers)
 if root_dir == "" then
   return
 end
+
+local bundles = {
+  vim.fn.glob(
+    home .. "/.local/share/nvim/java-debug/com.microsoft.java.debug.plugin/target/com.microsoft.java.debug.plugin-*.jar"
+  )
+}
 
 -- the jdtls configuartion verbose 
 local config = {
@@ -116,6 +123,9 @@ local config = {
             },
             useBlocks = true,
         },
+    },
+    init_options = {
+        bundles = bundles,
     },
 
 }

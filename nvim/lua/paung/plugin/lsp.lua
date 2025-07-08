@@ -33,10 +33,10 @@ local cmp = require('cmp')
 local cmp_select = {behavior = cmp.SelectBehavior.Select}
 
 cmp.setup({
-    completion = {
-        autocomplete = false,
-    },
-    sources = {
+    -- completion = {
+    --     autocomplete = true,
+    -- },
+    sources= {
         {name = 'path'},
         {name = 'nvim_lsp'},
         {name = 'nvim_lua'},
