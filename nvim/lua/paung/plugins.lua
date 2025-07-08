@@ -94,12 +94,12 @@ return require('packer').startup(function(use)
 
     -- dashboard
     -- and they are must require the nvim-tree/nvim-web-devicons
-    use "nvim-tree/nvim-web-devicons"
+    -- use "nvim-tree/nvim-web-devicons"
     use {
         "goolord/alpha-nvim",
-        dependencies = {
-            "nvim-tree/nvim-web-devicons",
-        },
+        -- dependencies = {
+        --     "nvim-tree/nvim-web-devicons",
+        -- },
     }
 
     use "windwp/nvim-autopairs"
@@ -114,10 +114,11 @@ return require('packer').startup(function(use)
         "supermaven-inc/supermaven-nvim",
     }
 
-    use { "zbirenbaum/copilot.lua" }
 
-
-
+    use { 
+        "rcarriga/nvim-dap-ui", 
+        requires = {"mfussenegger/nvim-dap"} 
+    }
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins

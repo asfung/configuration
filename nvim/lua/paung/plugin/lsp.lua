@@ -33,13 +33,15 @@ local cmp = require('cmp')
 local cmp_select = {behavior = cmp.SelectBehavior.Select}
 
 cmp.setup({
+    completion = {
+        autocomplete = false,
+    },
     sources = {
         {name = 'path'},
         {name = 'nvim_lsp'},
         {name = 'nvim_lua'},
         {name = 'luasnip', keyword_length = 2},
         {name = 'buffer', keyword_length = 3},
-        -- { name = "supermaven" },
     },
     formatting = lsp_zero.cmp_format(),
     mapping = cmp.mapping.preset.insert({
@@ -48,4 +50,5 @@ cmp.setup({
         ['<C-y>'] = cmp.mapping.confirm({ select = true }),
         ['<C-Space>'] = cmp.mapping.complete(),
     }),
+
 })
