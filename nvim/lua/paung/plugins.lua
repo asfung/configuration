@@ -114,11 +114,13 @@ return require('packer').startup(function(use)
         "supermaven-inc/supermaven-nvim",
     }
 
-
     use { 
         "rcarriga/nvim-dap-ui", 
         requires = {"mfussenegger/nvim-dap"} 
     }
+
+    use "JavaHello/spring-boot.nvim"
+
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins

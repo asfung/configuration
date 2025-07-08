@@ -15,11 +15,20 @@ if root_dir == "" then
   return
 end
 
+local lsp_common = require("paung.plugin.lsp")
+local jdtls = require("jdtls")
+
 local bundles = {
   vim.fn.glob(
     home .. "/.local/share/nvim/java-debug/com.microsoft.java.debug.plugin/target/com.microsoft.java.debug.plugin-*.jar"
   )
 }
+-- JavaHello/spring-boot.nvim
+vim.list_extend(bundles, require("spring_boot").java_extensions())
+
+local extendedClientCapabilities = jdtls.extendedClientCapabilities
+extendedClientCapabilities.resolveAdditionalTextEditsSupport = true
+
 
 -- the jdtls configuartion verbose 
 local config = {
@@ -110,7 +119,7 @@ local config = {
                 "org"
             },
         },
-        extendedClientCapabilities = extendedClientCapabilities,
+        -- extendedClientCapabilities = extendedClientCapabilities,
         sources = {
             organizeImports = {
                 starThreshold = 9999,
@@ -126,6 +135,7 @@ local config = {
     },
     init_options = {
         bundles = bundles,
+        extendedClientCapabilities = extendedClientCapabilities
     },
 
 }
