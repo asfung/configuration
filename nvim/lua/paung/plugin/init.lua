@@ -13,7 +13,7 @@ require('paung.plugin.dashboard')
 -- for auto completion -- like a ass completion aka [DEPRECATED]
 --require('paung.plugin.auto-cmp')
 require('paung.plugin.gruvbox')
-require('paung.plugin.ai-pairs')
+-- require('paung.plugin.ai-pairs')
 --require('paung.plugin.copilot')
 require('paung.plugin.blade')
 

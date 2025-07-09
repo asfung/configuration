@@ -4,7 +4,8 @@ local home = os.getenv("HOME")
 local jdtls_root_dir = vim.fn.stdpath('data') .. '/mason/packages/jdtls'
 local config_dir = jdtls_root_dir .. '/config_linux'
 local plugins_dir = jdtls_root_dir .. '/plugins/'
-local jar_path = plugins_dir .. 'org.eclipse.equinox.launcher_1.6.600.v20231106-1826.jar'
+-- local jar_path = plugins_dir .. 'org.eclipse.equinox.launcher_1.6.600.v20231106-1826.jar'
+local jar_path = vim.fn.glob(plugins_dir .. 'org.eclipse.equinox.launcher_*.jar')
 local lombok_path = jdtls_root_dir .. '/lombok.jar'
 
 -- workspace for new project with java
@@ -15,16 +16,13 @@ if root_dir == "" then
   return
 end
 
--- local lsp_common = require("paung.plugin.lsp")
--- local jdtls = require("jdtls")
---
 local bundles = {
   vim.fn.glob(
     home .. "/.local/share/nvim/java-debug/com.microsoft.java.debug.plugin/target/com.microsoft.java.debug.plugin-*.jar"
   )
 }
 -- JavaHello/spring-boot.nvim
-vim.list_extend(bundles, require("spring_boot").java_extensions())
+vim.list_extend(bundles, require("spring_boot").java_extensions()) -- wadefuk it doesnt work
 
 -- local extendedClientCapabilities = jdtls.extendedClientCapabilities
 -- extendedClientCapabilities.resolveAdditionalTextEditsSupport = true
@@ -34,7 +32,6 @@ vim.list_extend(bundles, require("spring_boot").java_extensions())
 local config = {
 
     cmd = {
-        --'/home/Asfung/.sdkman/candidates/java/17.0.9-oracle/bin/java',
         'java',
 
         -- core config
@@ -62,7 +59,7 @@ local config = {
     settings = {
         java = {
 
-            home = '/home/Asfung/.sdkman/candidates/java/21-graalce/',
+            home = home .. '/.sdkman/candidates/java/current/',
             eclipse = {
                 downloadSources = true,
             },
@@ -70,13 +67,17 @@ local config = {
                 updateBuildConfiguration = "interactive",
                 runtimes = {
                     {
-                        name = "JavaSE-21",
-                        path = '/home/Asfung/.sdkman/candidates/java/21-graalce',
-                    },
-                    {
-                        name = 'JavaSE-17',
-                        path = '/home/Asfung/.sdkman/candidates/java/17.0.9-oracle',
+                        name = 'JavaSE-21', -- cant use name 'JavaSE-Current', fvckk this shid
+                        path = home .. '/.sdkman/candidates/java/current',
                     }
+                    -- {
+                    --     name = "JavaSE-21",
+                    --     path = home .. '/.sdkman/candidates/java/21-graalce',
+                    -- },
+                    -- {
+                    --     name = 'JavaSE-17',
+                    --     path = home .. '/.sdkman/candidates/java/17.0.9-oracle',
+                    -- }
                 }
             },
 
@@ -96,7 +97,7 @@ local config = {
                 enabled = true,
                 settings = {
                     url = vim.fn.stdpath "config" .. "/lang-servers/ij-java-google-style.xml",
-                    profile = "GoogleStyle",
+                    -- profile = "GoogleStyle",
                 },
             },
         },
@@ -119,7 +120,6 @@ local config = {
                 "org"
             },
         },
-        -- extendedClientCapabilities = extendedClientCapabilities,
         sources = {
             organizeImports = {
                 starThreshold = 9999,
@@ -135,7 +135,6 @@ local config = {
     },
     init_options = {
         bundles = bundles,
-        -- extendedClientCapabilities = extendedClientCapabilities
     },
 
 }

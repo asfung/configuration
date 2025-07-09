@@ -40,7 +40,7 @@ return require('packer').startup(function(use)
     use { 'williamboman/mason.nvim' }
     use { 'williamboman/mason-lspconfig.nvim'}
     use { 'neovim/nvim-lspconfig' }
-    use { 'hrsh7th/nvim-cmp', config = [[require('config.nvim-cmp')]] }    
+    use { 'hrsh7th/nvim-cmp', config = [[require('config.nvim-cmp')]] }
     use { 'hrsh7th/cmp-nvim-lsp', after = 'nvim-cmp' } 
     use { 'hrsh7th/cmp-buffer', after = 'nvim-cmp' }        -- buffer auto-completion
     use { 'hrsh7th/cmp-path', after = 'nvim-cmp' }          -- path auto-completion
@@ -89,7 +89,7 @@ return require('packer').startup(function(use)
     -- some snippets
     --use("L3MON4D3/LuaSnip") 
     --use("saadparwaiz1/cmp_luasnip") 
-    use("rafamadriz/friendly-snippets") 
+    use("rafamadriz/friendly-snippets")
     use("onsails/lspkind.nvim")
 
     -- dashboard
@@ -114,13 +114,18 @@ return require('packer').startup(function(use)
         "supermaven-inc/supermaven-nvim",
     }
 
-    use { 
-        "rcarriga/nvim-dap-ui", 
-        requires = {"mfussenegger/nvim-dap"} 
+    use {
+        "rcarriga/nvim-dap-ui",
+        requires = {"mfussenegger/nvim-dap"}
     }
 
-    use "JavaHello/spring-boot.nvim"
-
+    -- use "JavaHello/spring-boot.nvim"
+    use {
+      "JavaHello/spring-boot.nvim",
+      opt = true, -- make it lazy loaded
+      requires = { "mfussenegger/nvim-jdtls" },
+      -- no config function, so nothing here
+    }
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins

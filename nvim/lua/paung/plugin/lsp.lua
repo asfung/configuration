@@ -17,6 +17,8 @@ end)
 
 -- to learn how to use mason.nvim with lsp-zero
 -- read this: https://github.com/VonHeikemen/lsp-zero.nvim/blob/v3.x/doc/md/guides/integrate-with-mason-nvim.md
+-- require('spring_boot').init_lsp_commands()
+
 require('mason').setup({})
 require('mason-lspconfig').setup({
     ensure_installed = {'ts_ls', 'rust_analyzer'},
@@ -26,6 +28,15 @@ require('mason-lspconfig').setup({
             local lua_opts = lsp_zero.nvim_lua_ls()
             require('lspconfig').lua_ls.setup(lua_opts)
         end,
+        -- jdtls = function()
+        --     local jdtls_opts = lsp_zero.build_options('jdtls', {
+        --         init_options = {
+        --             bundles = require("spring_boot").java_extensions(),
+        --         }
+        --     })
+        --     require('lspconfig').jdtls.setup(jdtls_opts)
+        -- end,
+
     }
 })
 
