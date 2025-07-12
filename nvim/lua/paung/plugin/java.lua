@@ -22,7 +22,7 @@ local bundles = {
   )
 }
 -- JavaHello/spring-boot.nvim
-vim.list_extend(bundles, require("spring_boot").java_extensions()) -- wadefuk it doesnt work
+-- vim.list_extend(bundles, require("spring_boot").java_extensions()) -- wadefuk it doesnt work
 
 -- local extendedClientCapabilities = jdtls.extendedClientCapabilities
 -- extendedClientCapabilities.resolveAdditionalTextEditsSupport = true
