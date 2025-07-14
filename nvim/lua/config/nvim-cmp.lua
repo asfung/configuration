@@ -94,17 +94,15 @@ cmp.setup({
     -- source: https://github.com/hrsh7th/nvim-cmp/wiki/Menu-Appearance
     formatting = {
         -- customize the appearance of the completion menu
-        format = function(entry, vim_item)
-            vim_item.kind = (lspkind.presets.default[vim_item.kind] or 'Walah') .. ' '  .. vim_item.kind
-            --vim_item.menu = "⚙️"
-            --vim_item.menu = ({
-                --nvim_lsp = '[Lsp]',
-                --luasnip = '[Luasnip]',
-                --buffer = '[File]',
-                --path = '[Path]',
-            --})[entry.source.name]
-            return vim_item
-        end,
+        -- format = function(entry, vim_item)
+        --     vim_item.kind = (lspkind.presets.default[vim_item.kind] or 'Walah') .. ' '  .. vim_item.kind
+        --     return vim_item
+        -- end,
+        format = lspkind.cmp_format({
+            mode = 'text',
+            -- mode = 'symbol_text',
+        }),
+
     },
 
     -- Set source precedence
