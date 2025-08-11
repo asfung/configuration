@@ -9,6 +9,19 @@ local cmp = require("cmp")
 
 require("luasnip/loaders/from_vscode").lazy_load()
 
+lua_ls = function()
+    local lua_opts = lsp_zero.nvim_lua_ls()
+    lua_opts.settings = {
+        Lua = {
+            diagnostics = {
+                globals = { "vim" },
+            },
+        },
+    }
+    require('lspconfig').lua_ls.setup(lua_opts)
+end
+
+
 local lspkind = require('lspkind')
 lspkind.init({
     mode = 'symbol_text',
@@ -99,8 +112,9 @@ cmp.setup({
         --     return vim_item
         -- end,
         format = lspkind.cmp_format({
-            mode = 'text',
-            -- mode = 'symbol_text',
+            -- mode = 'symbol', -- icons only
+            -- mode = 'text',
+            mode = 'symbol_text',
         }),
 
     },

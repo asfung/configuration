@@ -2,6 +2,21 @@ local alpha = require("alpha")
 -- local dashboard = require("alpha.themes.startify")
 local dashboard = require("alpha.themes.dashboard")
 
+local function search_files()
+    local opts = {}
+    require("telescope.builtin").find_files({
+        search_dirs = { vim.fn.expand("$HOME/Workspace"), vim.fn.expand("$HOME/Dev") }
+    })
+end
+
+local function find_files_custom()
+    local opts = {}
+    require("telescope.builtin").find_files({
+        search_dirs = { vim.fn.expand("$HOME/Workspace"), vim.fn.expand("$HOME/Dev") }
+    })
+end
+
+
 dashboard.section.header.val = {
               '                     .:::!~!!!!!:.',
               '                  .xuhwh!! !!?m88whx:.         _____      __    __    _____    _____       ________     ____     __    __     ____    ',
@@ -27,10 +42,11 @@ dashboard.section.header.val = {
 
 dashboard.section.buttons.val = {
     dashboard.button( "e", "  > New file" , ":ene <BAR> startinsert <CR>"),
-    dashboard.button( "f", "  > Find file", ":cd $HOME/Workspace | Telescope find_files<CR>"),
+    -- dashboard.button( "f", "  > Find file", ":cd $HOME/Workspace | Telescope find_files<CR>"),
+    dashboard.button("f", "  > Find file", ":lua require('telescope.builtin').find_files({ search_dirs = { vim.fn.expand('$HOME/Workspace'), vim.fn.expand('$HOME/Dev') } })<CR>"),
     dashboard.button( "r", "  > Recent"   , ":Telescope oldfiles<CR>"),
     dashboard.button( "s", "  > Settings" , ":e $MYVIMRC | :cd %:p:h | split . | wincmd k | pwd<CR>"),
-    dashboard.button( "q", "  > Quit NVIM", ":qa<CR>"),
+    dashboard.button( "q", "󰈆  > Quit NVIM", ":qa<CR>"),
 }
 
 alpha.setup(dashboard.opts)

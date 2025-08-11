@@ -97,9 +97,9 @@ return require('packer').startup(function(use)
     -- use "nvim-tree/nvim-web-devicons"
     use {
         "goolord/alpha-nvim",
-        -- dependencies = {
-        --     "nvim-tree/nvim-web-devicons",
-        -- },
+        dependencies = {
+            "nvim-tree/nvim-web-devicons",
+        },
     }
 
     use "windwp/nvim-autopairs"
