@@ -10,5 +10,5 @@ require('gruvbox').setup({
 })
 -- later i will create my own theme
 
-vim.cmd("colorscheme gruber-darker")
+-- vim.cmd("colorscheme gruber-darker")
 
