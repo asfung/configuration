@@ -1,6 +1,6 @@
 local function set_highlights(c)
   vim.cmd("hi clear")
-  vim.g.colors_name = "boi"
+  vim.g.colors_name = "boi_mate"
 
   -- ui
   vim.api.nvim_set_hl(0, "Normal",        { fg = c.fg, bg = c.bg })
